@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Great+Vibes&display=swap");
+
+*,
+::before,
+::after {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.4s linear;
+  font-family: "Comfortaa", cursive;
+  text-decoration: none;
+  list-style-type: none;
+}
+html {
+  font-size: 90%;
+}
+img {
+  width: 100%;
+}
+
+body {
+  /* font-family: "Noto Sans", sans-serif; */
+  padding: 1rem;
+}
+:root {
+  --navbar-color: #fff7f7;
+  --primary-color: #fd0000;
+  --secoundary-color: #eb1212;
+  --white-color: #fff;
+  --black-color: #000;
+  --samiblack-color: #464646;
+  --bg-color: #f7f0e8;
+  --bg-color2: #fce4e4;
+  --bg-color3: #fafaf9;
+}
+
+.cakeList .container ul {
+  text-align: center;
+  background: var(--primary-color);
+  color: var(--white-color);
+  margin: 2rem 0;
+  font-size: 2rem;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.cakeList .container li {
+  text-align: center;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  font-weight: 450;
+  padding: 5px;
+}

@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Great+Vibes&display=swap");
+*,
+::before,
+::after {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.4s linear;
+  font-family: "Comfortaa", cursive;
+  text-decoration: none;
+}
+:root {
+  --navbar-color: #fff7f7;
+  --primary-color: #fd0000;
+  --secoundary-color: #eb1212;
+  --white-color: #fff;
+  --black-color: #000;
+  --samiblack-color: #464646;
+  --bg-color: #f7f0e8;
+  --bg-color2: #fce4e4;
+  --bg-color3: #fafaf9;
+}
+/* for insta logo */
+:root {
+  --size: 50vmin;
+  --white: #fff;
+  --blue: #3051f1;
+  --purple: #c92bb7;
+  --red: #f73344;
+  --orange: #fa8e37;
+  --yellow: #fcdf8f;
+  --yellow_to: #fbd377;
+}
+body {
+  height: 100vh;
+  background: var(--bg-color3);
+}
+.aboutme {
+  height: 60vh;
+  background: var(--primary-color);
+  margin: 3rem 3rem 0 3rem;
+  position: relative;
+}
+.aboutme h1 {
+  /* border: 1px solid #0fa50fe6; */
+  position: absolute;
+  left: 0;
+  bottom: -44px;
+  font-size: 5rem;
+  width: 50%;
+  line-height: 90px;
+  padding-left: 5rem;
+}
+.aboutme img {
+  position: absolute;
+  width: 40%;
+  height: 90vh;
+  right: 5%;
+  top: 5%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+}
+.aboutme .icon {
+  /* border: 1px solid #0fa50fe6; */
+  width: 20%;
+  position: absolute;
+  bottom: -75%;
+  right: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 3rem;
+  /* height: 1px; */
+}
+.aboutme .icon > *:nth-child(1) {
+  color: #25d366;
+}
+.aboutme .icon > *:nth-child(2) {
+  color: #3b5998;
+}
+.aboutme .icon > *:nth-child(3) {
+  background: radial-gradient(
+      circle farthest-corner at 28% 100%,
+      var(--yellow) 0%,
+      var(--yellow_to) 10%,
+      var(--orange) 22%,
+      var(--red) 35%,
+      transparent 65%
+    ),
+    linear-gradient(145deg, var(--blue) 10%, var(--purple) 70%);
+  color: var(--white-color);
+}
+.aboutme .myinfo {
+  /* border: 1px solid #0fa50fe6; */
+  position: absolute;
+  bottom: -28rem;
+  width: 45%;
+  left: 5%;
+}
+.aboutme .myinfo h3 {
+  padding: 1.4rem 0 0 1rem;
+  font-size: 2rem;
+}
+
+.aboutme .myinfo p {
+  line-height: 17px;
+  padding: 0 1rem;
+  text-align: justify;
+}
+
+/* responsive */
+
+@media (width <= 768px) {
+  .aboutme .myinfo {
+    /* border: 1px solid #0fa50fe6; */
+    position: absolute;
+    bottom: -30rem;
+    width: 90%;
+    left: 5%;
+  }
+  .aboutme img {
+    position: absolute;
+    width: 40%;
+    top: 1%;
+
+    right: 1%;
+  }
+  .aboutme h1 {
+    padding-left: 1rem;
+  }
+  .aboutme .icon {
+    /* border: 1px solid #0fa50fe6; */
+    width: 30%;
+    position: absolute;
+    bottom: -22%;
+    left: 10%;
+  }
+}
+
+@media (width <= 420px) {
+  .aboutme {
+    margin: 0.5rem 0.5rem 0 0.5rem;
+    height: 40vh;
+  }
+
+  .aboutme .myinfo {
+    /* border: 1px solid #0fa50fe6; */
+    position: absolute;
+    bottom: -56rem;
+    width: 95%;
+    left: 0;
+ 
+  }
+  .aboutme img {
+    position: absolute;
+    width: 40%;
+    height: 40vh;
+    right: 2%;
+    top: 50%;
+   
+  }
+  .aboutme h1 {
+    padding-left: 0.5rem;
+    font-size: 3rem;
+    line-height: 60px;
+    bottom: -30px;
+  }
+  .aboutme .icon {
+    /* border: 1px solid #0fa50fe6; */
+    width: 30%;
+    position: absolute;
+    bottom: -30%;
+    left: 10%;
+  }
+}

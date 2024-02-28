@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="whatsappIcon">
+      <!-- neeed to change number -->
+      <a href="https://wa.me/918250844051"
+        ><ion-icon name="logo-whatsapp"></ion-icon
+      ></a>
+    </div>
+    <!-- NAV BAR **************** -->
+    <div class="addresBar">
+      <div class="logo">
+        <a href="index.html"> <img src="img/logo/logoo.png" /> </a>
+      </div>
+      <!-- SVG CAKE ICON -->
+      <div class="cake_logo">
+        <svg
+          height="5rem"
+          width="5rem"
+          version="1.1"
+          id="Layer_1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 0 512.001 512.001"
+          xml:space="preserve"
+        >
+          <g>
+            <path
+              style="fill: #eb1212"
+              id="fire-1"
+              d="M364.971,137.782c-24.971,0-45.284-20.315-45.284-45.285c0-29.867,32.968-56.219,36.728-59.125
+		c5.04-3.897,12.075-3.896,17.111,0c3.76,2.907,36.73,29.258,36.73,59.125C410.257,117.467,389.941,137.782,364.971,137.782z
+		 M364.971,63.223c-8.223,8.31-17.306,20.084-17.306,29.274c0,9.543,7.764,17.307,17.306,17.307c9.543,0,17.307-7.764,17.307-17.307
+		C382.279,83.31,373.199,71.536,364.971,63.223z"
+            />
+            <path
+              style="fill: #eb1212"
+              id="fire-2"
+              d="M256,135.527c-24.971,0-45.285-20.315-45.285-45.285c0-29.867,32.969-56.219,36.73-59.125
+		c5.039-3.896,12.074-3.896,17.111,0c3.76,2.907,36.73,29.258,36.73,59.125C301.285,115.212,280.97,135.527,256,135.527z
+		 M255.999,60.969c-8.223,8.308-17.306,20.086-17.306,29.274c0,9.543,7.764,17.307,17.307,17.307s17.307-7.764,17.307-17.307
+		C273.307,81.056,264.228,69.283,255.999,60.969z"
+            />
+            <path
+              style="fill: #eb1212"
+              id="fire-3"
+              d="M147.029,137.782c-24.97,0-45.285-20.315-45.285-45.285c0-29.867,32.969-56.219,36.73-59.125
+		c5.04-3.897,12.075-3.896,17.111,0c3.76,2.907,36.728,29.258,36.728,59.125C192.313,117.467,171.998,137.782,147.029,137.782z
+		 M147.028,63.223c-8.223,8.31-17.307,20.086-17.307,29.274c0,9.543,7.764,17.307,17.307,17.307c9.542,0,17.306-7.764,17.306-17.307
+		C164.335,83.31,155.255,71.536,147.028,63.223z"
+            />
+            <path
+              style="fill: #eb1212"
+              d="M62.533,425.666c-7.725,0-13.989-6.263-13.989-13.989V226.069c0-11.25,9.152-20.4,20.402-20.4
+		h374.11c11.25,0,20.402,9.152,20.402,20.4v132.004c0,7.726-6.264,13.989-13.989,13.989c-7.725,0-13.989-6.263-13.989-13.989
+		V233.646H76.522v178.03C76.522,419.403,70.259,425.666,62.533,425.666z"
+            />
+          </g>
+          <path
+            style="fill: #fd0000"
+            d="M49.36,177.599v74.427c0,15.461,12.534,27.995,27.995,27.995l0,0c3.58,0,6.534-2.697,6.983-6.249
+	c3.071-24.307,23.822-43.106,48.963-43.106c23.565,0,43.272,16.514,48.18,38.601c1.386,6.236,6.782,10.753,13.169,10.753l0,0
+	c6.387,0,11.784-4.518,13.169-10.753c4.907-22.086,24.615-38.601,48.18-38.601c23.565,0,43.272,16.514,48.18,38.601
+	c1.386,6.236,6.782,10.753,13.169,10.753l0,0c6.387,0,11.784-4.518,13.169-10.753c4.907-22.086,24.615-38.601,48.18-38.601
+	c25.141,0,45.891,18.799,48.963,43.106c0.449,3.552,3.404,6.249,6.983,6.249l0,0c15.461,0,27.995-12.534,27.995-27.995v-74.427
+	c0-26.835-21.754-48.59-48.59-48.59H97.949C71.113,129.009,49.36,150.764,49.36,177.599z"
+          />
+          <g>
+            <path
+              style="fill: #eb1212"
+              d="M434.646,294.009c-10.565,0-19.533-7.949-20.862-18.488c-2.224-17.597-17.307-30.867-35.085-30.867
+		c-16.446,0-30.965,11.628-34.525,27.647c-2.838,12.782-13.87,21.708-26.825,21.708s-23.986-8.928-26.825-21.71
+		c-3.56-16.019-18.079-27.645-34.525-27.645s-30.965,11.628-34.525,27.647c-2.838,12.782-13.87,21.708-26.825,21.708
+		c-12.955,0-23.986-8.928-26.825-21.71c-3.56-16.019-18.079-27.645-34.525-27.645c-17.777,0-32.86,13.271-35.085,30.87
+		c-1.329,10.537-10.297,18.485-20.862,18.485c-23.151,0-41.984-18.833-41.984-41.984v-74.427c0-34.505,28.072-62.577,62.579-62.577
+		h316.101c34.507,0,62.579,28.072,62.579,62.577v74.427C476.63,275.175,457.797,294.009,434.646,294.009z M97.95,143
+		c-19.08,0-34.601,15.521-34.601,34.599v74.427c0,5.743,3.475,10.69,8.433,12.849c6.853-27.931,32.133-48.199,61.52-48.199
+		c28.752,0,54.222,19.863,61.349,47.526c7.141-27.673,32.606-47.526,61.349-47.526c28.752,0,54.222,19.863,61.349,47.526
+		c7.141-27.673,32.606-47.526,61.349-47.526c29.387,0,54.665,20.27,61.52,48.199c4.959-2.159,8.433-7.106,8.433-12.849v-74.427
+		c0-19.078-15.522-34.599-34.601-34.599H97.95z"
+            />
+            <path
+              style="fill: #eb1212"
+              d="M471.24,483.807h-65.557c-7.725,0-13.989-6.263-13.989-13.989c0-7.726,6.264-13.989,13.989-13.989
+		h65.557c7.048,0,12.782-5.734,12.782-12.782c0-7.048-5.734-12.78-12.782-12.78H40.76c-7.048,0-12.782,5.734-12.782,12.78
+		c0,7.048,5.734,12.782,12.782,12.782h286.584c7.725,0,13.989,6.263,13.989,13.989c0,7.726-6.264,13.989-13.989,13.989H40.76
+		c-22.476,0-40.76-18.285-40.76-40.76c0-22.475,18.284-40.759,40.76-40.759h430.481c22.475,0,40.76,18.284,40.76,40.759
+		C512.001,465.522,493.716,483.807,471.24,483.807z"
+            />
+          </g>
+        </svg>
+      </div>
+      <div class="contact">
+        <div class="phone">+91-7894561230</div>
+        <div class="email">prianks34@gmail.com</div>
+      </div>
+      <div class="menu-bar">
+        <ion-icon name="menu"></ion-icon>
+      </div>
+    </div>
+    <nav class="navbar">
+      <ul class="nav-list">
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li class="dropdown">
+          <a href="cakes.html" class="cakeLink"
+            >Cakes <ion-icon id="drop" name="chevron-down"></ion-icon
+          ></a>
+          <div class="dropdown-content">
+            <div class="table-wrapper">
+              <table class="fl-table">
+                <thead>
+                  <tr>
+                    <th>Birthday cake</th>
+                    <th>Anniversary cake</th>
+                    <th>Encouragement cake</th>
+                    <th>Wedding cake</th>
+                    <th>valentines cake</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Rich Chocolate Cake</td>
+                    <td>Red velvet cake</td>
+                    <td>Fondant cake</td>
+                    <td>Love cake</td>
+                    <td>Chocolate and peanut butter cake</td>
+                  </tr>
+                  <tr>
+                    <td>Cupcake Queen</td>
+                    <td>Heart shape cake</td>
+                    <td>Tier cake</td>
+                    <td>Three-Tier Floral Cakes</td>
+                    <td>Mocha chocolate cake</td>
+                  </tr>
+                  <tr>
+                    <td>Classic Vanilla Cake</td>
+                    <td>Pineapple cake</td>
+                    <td>Heart Shape Cake</td>
+                    <td>Traditional fruit and marzipan cake</td>
+                    <td>Mint chocolate cake</td>
+                  </tr>
+                  <tr>
+                    <td>Neapolitan Brownie Ice Cream Cake</td>
+                    <td>Chocolate cake</td>
+                    <td>Rainbow cookie</td>
+                    <td>Chocolate wedding cake</td>
+                    <td>Chocolate orange cake</td>
+                  </tr>
+                  <tr>
+                    <td>Coconut Cake</td>
+                    <td>Chocolate Truffle Cake</td>
+                    <td>Rose cake</td>
+                    <td>Vanilla wedding cake</td>
+                    <td>Chocolate fruit and nut cake</td>
+                  </tr>
+                  <tr>
+                    <td>Pink Ombre Cake</td>
+                    <td>Fruit cake</td>
+                    <td>Pineapple Cream Cake</td>
+                    <td>Victoria sponge wedding cake</td>
+                    <td>Chocolate and berries cake</td>
+                  </tr>
+                  <tr>
+                    <td>White Chocolate Lemon Cake</td>
+                    <td>Black Forest cake</td>
+                    <td>Chocolate almond cake</td>
+                    <td>Lemon drizzle wedding cake</td>
+                    <td>Coffee and chocolate cake</td>
+                  </tr>
+                  <tr>
+                    <td>Watermelon Cake</td>
+                    <td>Butterscotch Cake</td>
+                    <td>Chiffon cake</td>
+                    <td>Red velvet wedding cake</td>
+                    <td>Passionfruit and white chocolate cake</td>
+                  </tr>
+                  <tr>
+                    <td>Chocolate Meringue Layer Cake</td>
+                    <td>Red Velvet Heart Cake</td>
+                    <td>chocolate cake</td>
+                    <td>Sticky toffee cake</td>
+                    <td>Apple and caramel cake</td>
+                  </tr>
+                  <tr>
+                    <td>Cannoli Cake</td>
+                    <td>Vanilla cake</td>
+                    <td>Hazelnut chocolate cake</td>
+                    <td>Chocolate and peanut butter cake</td>
+                    <td>Cherries and cream cake</td>
+                  </tr>
+                </tbody>
+
+                <tbody></tbody>
+              </table>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <a href="about.html">About Me</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- SLIDE  ----------- -->
+    <section class="landingSlide">
+      <div class="Slideproject">
+        <div class="SlideprojectContainer">
+          <div class="projects active">
+            <img class="i1" src="img\landingpic\pic-2.jpg" />
+
+            <img class="mSlide1 dis" src="img\landingpic\pic-4.jpg" />
+
+            <div class="details details1">
+              <!-- heading line -->
+              <h1><span>Welcome to</span>Priyanka's Dreamy</h1>
+
+              <p>Where Every Slice is a <span>Taste of Joy!</span></p>
+            </div>
+          </div>
+          <div class="projects">
+            <img class="i2" src="img\landingpic\pic-3.jpg" />
+
+            <img class="dis" src="img\landingpic\pic-5.jpg" />
+            <div class="details details3">
+              <h1>
+                <span>Elevate Your Moments with</span> Our delicious-looking
+                cakes!
+              </h1>
+            </div>
+          </div>
+          <div class="projects">
+            <img class="i3" src="img\landingpic\pic-1.jpg" />
+
+            <img class="dis" src="img\landingpic\pic-6.jpg" />
+            <div class="details details2">
+              <h1><span>Creating Memories,</span>One Slice at a Time</h1>
+            </div>
+          </div>
+        </div>
+
+        <!-- ************************ icons ******************** -->
+
+        <div class="leftI">
+          <ion-icon name="arrow-back"></ion-icon>
+        </div>
+        <div class="rightI">
+          <ion-icon name="arrow-forward"></ion-icon>
+        </div>
+      </div>
+    </section>
+    <!-- ***************** cake category ************** -->
+    <section class="cakeCatgory">
+      <svg
+        class="bicon"
+        fill="#000000"
+        version="1.1"
+        id="Layer_1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        width="600px"
+        height="600px"
+        viewBox="796 796 200 200"
+        enable-background="new 796 796 200 200"
+        xml:space="preserve"
+      >
+        <g>
+          <path
+            d="M986.55,972.536h-9.635v-61.1c0-14.9-10.702-27.347-24.824-30.06c-0.758-0.145-1.308-0.808-1.308-1.58v-35.494
+		c0-5.074-4.113-9.187-9.188-9.187c-5.073,0-9.188,4.113-9.188,9.187v34.913c0,0.89-0.721,1.61-1.61,1.61h-24.241
+		c-0.89,0-1.61-0.721-1.61-1.61v-34.913c0-5.074-4.113-9.187-9.188-9.187c-5.075,0-9.188,4.113-9.188,9.187v34.913
+		c0,0.89-0.721,1.61-1.611,1.61h-24.241c-0.89,0-1.611-0.721-1.611-1.61v-34.913c0-5.074-4.113-9.187-9.188-9.187
+		s-9.188,4.113-9.188,9.187v35.591c0,0.763-0.536,1.419-1.283,1.575c-13.893,2.892-24.365,15.229-24.365,29.967v61.1h-9.633
+		c-4.769,0-8.635,3.865-8.635,8.635c0,4.768,3.866,8.634,8.635,8.634H986.55c4.768,0,8.634-3.866,8.634-8.634
+		C995.184,976.401,991.317,972.536,986.55,972.536z M845.694,892.782h100.611c10.285,0,18.654,8.368,18.654,18.654v16.425
+		c0,0.89-0.722,1.61-1.611,1.61H828.65c-0.89,0-1.611-0.721-1.611-1.61v-16.425C827.039,901.15,835.408,892.782,845.694,892.782z
+		 M827.039,943.038c0-0.89,0.721-1.611,1.611-1.611h134.698c0.89,0,1.611,0.722,1.611,1.611v27.887c0,0.89-0.722,1.611-1.611,1.611
+		H828.65c-0.89,0-1.611-0.722-1.611-1.611V943.038z"
+          />
+          <path
+            d="M849.916,830.671c2.423,0,4.611-0.996,6.186-2.598l0,0c0.011-0.011,0.019-0.024,0.031-0.036
+		c0.211-0.217,0.408-0.445,0.596-0.684c0,0,0-0.001,0.001-0.002c0.186-0.236,0.358-0.482,0.519-0.735
+		c0.009-0.016,0.018-0.031,0.027-0.045c0.146-0.235,0.281-0.475,0.405-0.724c0.013-0.024,0.025-0.05,0.036-0.076
+		c0.114-0.234,0.217-0.472,0.31-0.717c0.013-0.037,0.027-0.075,0.041-0.11c0.079-0.219,0.15-0.442,0.212-0.668
+		c0.023-0.085,0.045-0.171,0.065-0.257c0.037-0.15,0.072-0.302,0.099-0.455c1.479-7.534-5.868-17.257-8.972-20.077
+		c-3.185-2.894-6.353-0.494-4.615,2.905c1.953,3.816,1.557,6.402-0.974,9.376c-0.291,0.28-0.557,0.583-0.807,0.902
+		c-0.013,0.014-0.024,0.028-0.038,0.043l0.003,0.004c-1.125,1.462-1.799,3.289-1.799,5.276
+		C841.24,826.787,845.124,830.671,849.916,830.671z"
+          />
+          <path
+            d="M895.735,830.671c2.423,0,4.612-0.996,6.187-2.598v0c0.012-0.011,0.021-0.024,0.03-0.036
+		c0.211-0.217,0.408-0.445,0.597-0.684c0.001,0,0.001-0.001,0.001-0.002c0.186-0.236,0.358-0.482,0.52-0.735
+		c0.008-0.016,0.018-0.031,0.026-0.045c0.146-0.235,0.28-0.475,0.404-0.724c0.013-0.024,0.024-0.05,0.036-0.076
+		c0.114-0.234,0.215-0.472,0.309-0.717c0.013-0.037,0.028-0.075,0.042-0.11c0.077-0.219,0.149-0.442,0.211-0.668
+		c0.023-0.085,0.045-0.171,0.066-0.257c0.036-0.15,0.07-0.302,0.099-0.455c1.478-7.534-5.869-17.257-8.974-20.077
+		c-3.185-2.894-6.354-0.494-4.615,2.905c1.953,3.816,1.558,6.402-0.974,9.376c-0.29,0.28-0.557,0.583-0.806,0.902
+		c-0.014,0.014-0.024,0.028-0.039,0.043l0.004,0.004c-1.125,1.462-1.8,3.289-1.8,5.276
+		C887.06,826.787,890.943,830.671,895.735,830.671z"
+          />
+          <path
+            d="M941.573,830.671c2.423,0,4.612-0.996,6.188-2.598v0c0.01-0.011,0.019-0.024,0.028-0.036
+		c0.212-0.217,0.41-0.445,0.598-0.684c0.002,0,0.002-0.001,0.002-0.002c0.186-0.236,0.357-0.482,0.518-0.735
+		c0.009-0.016,0.019-0.031,0.026-0.045c0.146-0.235,0.282-0.475,0.404-0.724c0.014-0.024,0.025-0.05,0.037-0.076
+		c0.113-0.234,0.216-0.472,0.309-0.717c0.013-0.037,0.027-0.075,0.041-0.11c0.078-0.219,0.149-0.442,0.212-0.668
+		c0.023-0.085,0.046-0.171,0.064-0.257c0.038-0.15,0.072-0.302,0.101-0.455c1.478-7.534-5.869-17.257-8.975-20.077
+		c-3.184-2.894-6.352-0.494-4.613,2.905c1.952,3.816,1.558,6.402-0.976,9.376c-0.29,0.28-0.557,0.583-0.807,0.902
+		c-0.013,0.014-0.023,0.028-0.039,0.043l0.006,0.004c-1.124,1.462-1.801,3.289-1.801,5.276
+		C932.897,826.787,936.781,830.671,941.573,830.671z"
+          />
+        </g>
+      </svg>
+      <div class="boxContainer">
+        <a href="" class="boxs">
+          <img src="img/catagori/Cak1.png" />
+          <p>Chocolate cake</p>
+        </a>
+        <a href="#" class="boxs">
+          <img src="img/catagori/Cak2.png" />
+          <p>Vanilla cake</p>
+        </a>
+        <a href="#" class="boxs">
+          <img src="img/catagori/Cak3.png" />
+          <p>Fruit cake</p>
+        </a>
+        <a href="#" class="boxs">
+          <img src="img/catagori/Cak4.png" />
+          <p>Black Forest cake</p>
+        </a>
+        <a href="#" class="boxs">
+          <img src="img/catagori/Cak5.png" />
+          <p>cup cake</p>
+        </a>
+        <a href="#" class="boxs">
+          <img src="img/catagori/Cak6.png" />
+          <p>Red velvet cake</p>
+        </a>
+      </div>
+    </section>
+    <!-- IMGE BOXES AND CONATAINER IMAGE AND DETAILS -->
+    <section class="occasions">
+      <!-- //balloon svg -->
+      <svg
+        class="ballon"
+        version="1.1"
+        id="_x32_"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 0 512 512"
+        xml:space="preserve"
+        ;
+        width="7rem"
+        height="7rem"
+      >
+        <style type="text/css">
+          .st0 {
+            fill: #fd0000;
+          }
+        </style>
+        <g>
+          <rect
+            x="248.388"
+            y="377.03"
+            class="st0"
+            width="15.224"
+            height="96.144"
+          />
+          <rect
+            x="97.53"
+            y="383.029"
+            class="st0"
+            width="12.422"
+            height="78.432"
+          />
+          <rect
+            x="402.06"
+            y="383.029"
+            class="st0"
+            width="12.422"
+            height="78.432"
+          />
+          <path
+            class="st0"
+            he
+            d="M123.815,109.005c-6.486-1.201-13.188-1.876-20.074-1.876C44.365,107.13-2.452,152.682,0.1,224.17
+		c2.664,74.405,55.383,120.552,90.247,130.756l-9.837,18.152h46.462l-9.865-18.199c16.053-4.684,35.858-16.934,52.861-36.127
+		c-30.791-30.431-56.424-76.161-58.563-135.828C110.455,156.245,114.756,131.138,123.815,109.005z M79.709,165.372
+		c-4.244,2.47-8.098,5.485-11.495,9.008c-7.48,7.76-12.765,17.637-15.636,29.653c-1.224,5.136-6.371,8.304-11.506,7.08
+		c-5.124-1.224-8.304-6.377-7.08-11.506c3.534-14.899,10.408-28.081,20.474-38.501c4.632-4.799,9.894-8.905,15.613-12.245
+		c4.564-2.659,10.408-1.115,13.074,3.437C85.805,156.862,84.273,162.707,79.709,165.372z"
+          />
+          <path
+            class="st0"
+            d="M511.9,224.17c2.562-71.488-44.265-117.041-103.63-117.041c-6.885,0-13.588,0.674-20.086,1.876
+		c9.059,22.133,13.36,47.24,12.411,73.919c-2.128,59.667-27.76,105.397-58.552,135.834c17.009,19.187,36.808,31.432,52.862,36.121
+		l-9.866,18.199h46.462l-9.837-18.152C456.528,344.723,509.252,298.582,511.9,224.17z"
+          />
+          <path
+            class="st0"
+            d="M383.037,182.295c3.134-87.628-54.262-143.469-127.032-143.469c-72.781,0-130.166,55.841-127.043,143.469
+		c3.265,91.202,67.886,147.775,110.618,160.288l-12.055,22.248h56.95l-12.051-22.248
+		C315.164,330.076,379.79,273.509,383.037,182.295z M226.541,110.218c-5.193,3.031-9.917,6.726-14.08,11.043
+		c-9.174,9.517-15.648,21.624-19.171,36.356c-1.498,6.291-7.812,10.175-14.103,8.676c-6.291-1.499-10.18-7.818-8.682-14.109
+		c4.336-18.261,12.765-34.423,25.096-47.194c5.673-5.879,12.124-10.912,19.136-15.007c5.593-3.26,12.764-1.372,16.025,4.215
+		C234.021,99.786,232.134,106.958,226.541,110.218z"
+          />
+        </g>
+      </svg>
+      <!-- arrow svg -->
+      <svg
+        width="7rem"
+        height="7rem"
+        class="Rarroy"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        fill="#000000"
+      >
+        <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+        <g
+          id="SVGRepo_tracerCarrier"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+
+        <g id="SVGRepo_iconCarrier">
+          <defs>
+            <path
+              id="right-a"
+              d="M2.29289322,0.292893219 C2.68341751,-0.0976310729 3.31658249,-0.0976310729 3.70710678,0.292893219 C4.09763107,0.683417511 4.09763107,1.31658249 3.70710678,1.70710678 L1.70710678,3.70710678 C1.31658249,4.09763107 0.683417511,4.09763107 0.292893219,3.70710678 C-0.0976310729,3.31658249 -0.0976310729,2.68341751 0.292893219,2.29289322 L2.29289322,0.292893219 Z"
+            />
+            <path
+              id="right-c"
+              d="M3.41421356,4 L13.0014708,4 C13.5529433,4 14,4.44771525 14,5 C14,5.55228475 13.5529433,6 13.0014708,6 L3.41421356,6 L5.70710678,8.29289322 C6.09763107,8.68341751 6.09763107,9.31658249 5.70710678,9.70710678 C5.31658249,10.0976311 4.68341751,10.0976311 4.29289322,9.70710678 L0.292893219,5.70710678 C-0.0976310729,5.31658249 -0.0976310729,4.68341751 0.292893219,4.29289322 L4.29289322,0.292893219 C4.68341751,-0.0976310729 5.31658249,-0.0976310729 5.70710678,0.292893219 C6.09763107,0.683417511 6.09763107,1.31658249 5.70710678,1.70710678 L3.41421356,4 Z"
+            />
+          </defs>
+          <g fill="none" fill-rule="evenodd" transform="matrix(-1 0 0 1 19 7)">
+            <g transform="translate(3 1)">
+              <mask id="right-b" fill="#ffffff">
+                <use xlink:href="#right-a" />
+              </mask>
+              <use fill="#D8D8D8" fill-rule="nonzero" xlink:href="#right-a" />
+              <g fill="#FFA0A0" mask="url(#right-b)">
+                <rect width="24" height="24" transform="translate(-8 -8)" />
+              </g>
+            </g>
+            <mask id="right-d" fill="#ffffff">
+              <use xlink:href="#right-c" />
+            </mask>
+            <use fill="#000000" fill-rule="nonzero" xlink:href="#right-c" />
+            <g fill="#7600FF" mask="url(#right-d)">
+              <rect width="24" height="24" transform="translate(-5 -7)" />
+            </g>
+          </g>
+        </g>
+      </svg>
+      <h2>Cakes for <span>everyday occasions</span></h2>
+      <div class="container">
+        <div class="boxes">
+          <div class="box">
+            <div class="ibox">
+              <img src="img/occasion/pic-1.jpg" />
+              <p>Birthday cake</p>
+            </div>
+          </div>
+          <!-- ****** -->
+          <div class="box">
+            <div class="ibox">
+              <img src="img/occasion/pic-2.jpg" />
+              <p>Anniversary cake</p>
+            </div>
+          </div>
+          <!-- ****** -->
+          <div class="box">
+            <div class="ibox">
+              <img src="img/occasion/pic-3.jpg" />
+              <p>Engagement Cake</p>
+            </div>
+          </div>
+
+          <!-- ****** -->
+          <div class="box">
+            <div class="ibox">
+              <img src="img/occasion/pic-4.jpg" />
+              <p>Wedding cake</p>
+            </div>
+          </div>
+
+          <!-- ****** -->
+          <div class="box">
+            <div class="ibox">
+              <img src="img/occasion/pic-5.jpg" />
+              <p>Valentines cake</p>
+            </div>
+          </div>
+
+          <!-- ****** -->
+          <div class="box">
+            <div class="ibox">
+              <img src="img/occasion/pic-6.jpg" />
+              <p>Cakes for kids</p>
+            </div>
+          </div>
+          <!-- ****** -->
+          <div class="box">
+            <div class="ibox">
+              <img src="img/occasion/pic-7.jpg" />
+              <p>Designer cakes</p>
+            </div>
+          </div>
+
+          <!-- ****** -->
+          <div class="box">
+            <div class="ibox">
+              <img src="img/occasion/pic-8.jpg" />
+              <p>Christmas cakes</p>
+            </div>
+          </div>
+
+          <!-- ****** -->
+          <div class="box">
+            <div class="ibox">
+              <img src="img/occasion/pic-9.jpg" />
+              <p>Cakes for men</p>
+            </div>
+          </div>
+
+          <!-- ****** -->
+          <div class="box">
+            <div class="ibox">
+              <img src="img/occasion/pic-10.jpg" />
+              <p>Cakes for women</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- /****************** grid view cakes *********************** -->
+    <!---------------- IMGE BOXES--------------------->
+    <section class="gridCake">
+      <div class="cakecontainer">
+        <div class="cakes">
+          <div class="a">
+            <img src="img/grid-view/pic-1.jpg" />
+          </div>
+          <!-- ****** -->
+          <div class="d">
+            <img src="img/grid-view/pic-2.jpg" />
+          </div>
+          <!-- ****** -->
+          <div class="b">
+            <img src="img/grid-view/pic-3.jpg" />
+          </div>
+
+          <!-- ****** -->
+          <div class="c">
+            <img src="img/grid-view/pic-4.jpg" />
+          </div>
+
+          <div class="e">
+            <img src="img/grid-view/pic-5.jpg" />
+          </div>
+
+          <div class="f">
+            <img src="img/grid-view/pic-6.jpg" />
+          </div>
+
+          <div class="g">
+            <img src="img/grid-view/pic-7.jpg" />
+          </div>
+
+          <div class="h">
+            <img src="img/grid-view/pic-8.jpg" />
+          </div>
+
+          <div class="i">
+            <img src="img/grid-view/pic-9.jpg" />
+          </div>
+          <div class="j">
+            <img src="img/grid-view/pic-10.jpg" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ************ popular cakes ********************* -->
+    <section class="popular">
+      <div class="popularWrap">
+        <!-- **part1** -->
+
+        <div class="popucontainer">
+          <a href="popularcakes.html">
+            <div class="heading1">
+              <h2>popular cakes</h2>
+            </div>
+            <div class="pcakes">
+              <div class="cake">
+                <img src="img/popular-cakes/pic-1.jpg" />
+                <div class="detail">
+                  <p>name</p>
+                </div>
+              </div>
+              <!-- ****** -->
+              <div class="cake">
+                <img src="img/popular-cakes/pic-2.jpg" />
+                <div class="detail">
+                  <p>name</p>
+                </div>
+              </div>
+              <!-- ****** -->
+              <div class="cake">
+                <img src="img/popular-cakes/pic-3.jpg" />
+                <div class="detail">
+                  <p>name</p>
+                </div>
+              </div>
+
+              <!-- ****** -->
+              <div class="cake">
+                <img src="img/popular-cakes/pic-4.jpg" />
+                <div class="detail">
+                  <p>name</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- **part2** -->
+        <div class="popucontainer">
+          <a href="trandingcake.html">
+            <div class="heading1">
+              <h2>Trending cakes</h2>
+            </div>
+            <div class="pcakes">
+              <div class="cake">
+                <img src="img/tranding-cake/pic-1.jpg" />
+                <div class="detail">
+                  <p>name</p>
+                </div>
+              </div>
+              <!-- ****** -->
+              <div class="cake">
+                <img src="img/tranding-cake/pic-2.jpg" />
+                <div class="detail">
+                  <p>name</p>
+                </div>
+              </div>
+              <!-- ****** -->
+              <div class="cake">
+                <img src="img/tranding-cake/pic-3.jpg" />
+                <div class="detail">
+                  <p>name</p>
+                </div>
+              </div>
+
+              <!-- ****** -->
+              <div class="cake">
+                <img src="img/tranding-cake/pic-4.jpg" />
+                <div class="detail">
+                  <p>name</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- part 3 -->
+
+        <div class="popucontainer">
+          <a href="designcake.html">
+            <div class="heading1">
+              <h2>Designer cakes</h2>
+            </div>
+            <div class="pcakes">
+              <div class="cake">
+                <img src="img/design-cakes/pic-1.jpg" />
+                <div class="detail">
+                  <p>name</p>
+                </div>
+              </div>
+              <!-- ****** -->
+              <div class="cake">
+                <img src="img/design-cakes/pic-2.jpg" />
+                <div class="detail">
+                  <p>name</p>
+                </div>
+              </div>
+              <!-- ****** -->
+              <div class="cake">
+                <img src="img/design-cakes/pic-3.jpg" />
+                <div class="detail">
+                  <p>name</p>
+                </div>
+              </div>
+
+              <!-- ****** -->
+              <div class="cake">
+                <img src="img/design-cakes/pic-4.jpg" />
+                <div class="detail">
+                  <p>name</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ******************* review section ************************ -->
+    <section class="reviewS">
+      <!-- svg img*********** -->
+      <svg
+        class="star"
+        width="100px"
+        height="100px"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        stroke="#fd0000"
+        transform="matrix(-1, 0, 0, 1, 0, 0)"
+      >
+        <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+        <g
+          id="SVGRepo_tracerCarrier"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+
+        <g id="SVGRepo_iconCarrier">
+          <path
+            d="M14.7249 8.15612C16.2754 7.23788 17.0507 6.77876 17.6201 7.10452C18.1895 7.43027 18.1759 8.32517 18.1487 10.115L18.1416 10.578C18.1339 11.0866 18.13 11.3409 18.2248 11.5644C18.3196 11.7878 18.5023 11.9552 18.8677 12.2899L19.2003 12.5946C20.4862 13.7725 21.1291 14.3614 20.9784 15.0228C20.8277 15.6841 19.9831 15.9799 18.2941 16.5714L17.8571 16.7245C17.3771 16.8926 17.1371 16.9766 16.953 17.1451C16.7689 17.3137 16.6615 17.5475 16.4467 18.0153L16.2512 18.4412C15.4953 20.0874 15.1174 20.9105 14.4549 20.9935C13.7924 21.0765 13.284 20.3644 12.2673 18.9402L12.0043 18.5717C11.7154 18.167 11.5709 17.9647 11.3623 17.8453C11.1538 17.726 10.9047 17.7032 10.4065 17.6576L9.95303 17.6161C8.20005 17.4557 7.32356 17.3754 7.06482 16.7654C6.80608 16.1553 7.33644 15.4194 8.39716 13.9477L8.67158 13.5669C8.973 13.1487 9.12372 12.9396 9.17893 12.6973C9.23414 12.4551 9.18759 12.2071 9.09451 11.7111L9.00976 11.2596C8.68219 9.51421 8.51841 8.64154 9.02101 8.18152C9.52362 7.7215 10.3598 7.9788 12.032 8.49339L12.4647 8.62652C12.9399 8.77276 13.1775 8.84587 13.4202 8.81547C13.6629 8.78508 13.8832 8.65461 14.3238 8.39368L14.7249 8.15612Z"
+            stroke=""
+            stroke-width="1.5"
+          />
+          <path
+            opacity="0.5"
+            d="M13.5 6.5L13 6M9.5 2.5L11.5 4.5"
+            stroke=""
+            stroke-width="1.5"
+            stroke-linecap="round"
+          />
+          <path
+            opacity="0.5"
+            d="M6.5 6.5L4 4"
+            stroke=""
+            stroke-width="1.5"
+            stroke-linecap="round"
+          />
+          <path
+            opacity="0.5"
+            d="M6 12L4.5 10.5M2 8L2.5 8.5"
+            stroke=""
+            stroke-width="1.5"
+            stroke-linecap="round"
+          />
+        </g>
+      </svg>
+      <!-- review girl   -->
+      <svg
+        height="200px"
+        width="200px"
+        class="picecake"
+        version="1.1"
+        id="_x32_"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 0 512 512"
+        xml:space="preserve"
+        fill="#000000"
+      >
+        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+        <g
+          id="SVGRepo_tracerCarrier"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        ></g>
+        <g id="SVGRepo_iconCarrier">
+          <style type="text/css">
+            .st0 {
+              fill: #fd0000;
+            }
+          </style>
+          <g>
+            <path
+              class="st0"
+              d="M512,275.052c-0.038-4.608-1.333-8.486-3.276-12.005c-1.889-3.283-4.418-6.331-8.296-8.692l0.023-0.038 L281.417,115.193c-14.923-34.364-43.224-51.306-61.933-51.306c-4.357,0-9.263,1.005-14.375,2.842l-13.674-8.684l-0.068-0.038 c-7.237-4.403-15.494-5.812-24.347-5.858c-9.24,0.016-19.318,1.699-29.908,4.8c-15.867,4.67-32.863,12.592-48.989,23.63 c-16.104,11.038-31.325,25.215-43.247,42.538c-16.455,23.942-27.645,47.916-34.737,69.862C3.047,214.948,0.015,234.838,0,251.025 c0.008,2.842,0.13,5.539,0.32,8.167v164.712c0.008,19.86,16.096,35.941,35.948,35.948h435.456 c19.479-0.007,35.385-15.494,35.941-34.942l4.091-147.519h-0.038C511.802,276.614,512,275.791,512,275.052z M260.087,158.004 c0.556-6.407,3.565-11.412,6.704-11.175c3.146,0.236,5.24,5.63,4.684,12.044c-0.563,6.399-3.565,11.404-6.711,11.16 C261.618,169.797,259.531,164.411,260.087,158.004z M247.556,104.528c3.123-0.45,6.506,4.334,7.572,10.688 c1.052,6.361-0.617,11.869-3.733,12.318s-6.506-4.327-7.572-10.681C242.772,110.5,244.44,104.985,247.556,104.528z M240.09,201.898 c0.556-6.399,3.558-11.396,6.712-11.16c3.138,0.236,5.233,5.622,4.677,12.029s-3.558,11.412-6.712,11.175 C241.622,213.706,239.526,208.313,240.09,201.898z M216.803,158.012c0.563-6.414,3.565-11.411,6.711-11.167 c3.139,0.236,5.233,5.629,4.677,12.028c-0.556,6.406-3.565,11.412-6.704,11.168C218.341,169.804,216.247,164.419,216.803,158.012z M205.132,201.959c1.066,6.354-0.602,11.861-3.725,12.31c-3.116,0.449-6.506-4.327-7.564-10.68 c-1.059-6.354,0.601-11.868,3.732-12.318C200.691,190.815,204.065,195.606,205.132,201.959z M186.095,116.968 c0.61-6.407,3.649-11.389,6.795-11.137c3.131,0.259,5.195,5.659,4.602,12.066c-0.61,6.399-3.649,11.381-6.795,11.13 C187.558,128.768,185.502,123.366,186.095,116.968z M484.279,424.247c-0.19,6.795-5.751,12.203-12.554,12.203H36.268 c-6.917-0.015-12.531-5.622-12.547-12.546v-40.359h461.685L484.279,424.247z M486.412,347.23H23.874 c-0.053-0.007-0.099-0.03-0.152-0.037v-56.388h464.26L486.412,347.23z M488.462,275.204H24.552l-0.662-0.747 c-0.053-0.068-0.115-0.228-0.168-0.312v-15.434l-0.038-0.472c-0.182-2.209-0.282-4.617-0.274-7.214 c-0.016-13.247,2.574-31.019,8.997-50.848c6.414-19.845,16.629-41.799,31.758-63.807c13.301-19.38,32.254-34.821,51.459-45.219 c9.59-5.203,19.219-9.149,28.086-11.754c8.86-2.613,16.988-3.855,23.31-3.848c6.041-0.038,10.277,1.226,11.976,2.324l3.717,2.361 c-18.816,16.271-35.217,44.77-35.217,86.082c0,55.876,45.989,68.91,71.988,68.91c26,0,71.988-13.034,71.988-68.91 c0-6.239-0.488-12.09-1.188-17.75l197.819,125.64l0.373,0.609l0.046,0.145L488.462,275.204z M177.266,170.856 c-3.108,0.457-6.498-4.335-7.557-10.68c-1.066-6.361,0.61-11.868,3.726-12.318c3.116-0.457,6.506,4.326,7.572,10.68 C182.058,164.898,180.39,170.407,177.266,170.856z"
+            ></path>
+          </g>
+        </g>
+      </svg>
+
+      <!-- /**************************/ -->
+      <h2>Client Revie<span>ws</span></h2>
+      <div class="container">
+        <div class="reviw">
+          <div class="personN">
+            <!-- name -->
+            <h3>Dipa Bhowmik </h3>
+          </div>
+          <div class="personR">
+            <!-- review -->
+            <p>
+              Very delicious tasty cake awesome thank you so much  priyanka's dreamy ❤
+            </p>
+          </div>
+        </div>
+        <div class="reviw">
+          <div class="personN">
+            <!-- name -->
+            <h3>Baishali Sengupta</h3>
+          </div>
+          <div class="personR">
+            <!-- review -->
+            <p>
+              Just eating the cake in your hand shows how much love there is in it. ❤❤
+            </p>
+          </div>
+        </div>
+        <div class="reviw">
+          <div class="personN">
+            <!-- name -->
+            <h3>Zeni Sarkar</h3>
+          </div>
+          <div class="personR">
+            <!-- review -->
+            <p>
+              Testy & Delicious Cake 🎂
+Thnk u so much🥰
+Priyanka Dreamy❤
+            </p>
+          </div>
+        </div>
+        <div class="reviw">
+          <div class="personN">
+            <!-- name -->
+            <h3>Ananya Giri </h3>
+          </div>
+          <div class="personR">
+            <!-- review -->
+            <p>
+              Finger licking and mood enhancing cake ❤️
+            </p>
+          </div>
+        </div>
+        
+
+      </div>
+    </section>
+    <footer>
+      <!-- wave svg -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#fd0000"
+          fill-opacity="1"
+          d="M0,0L60,5.3C120,11,240,21,360,42.7C480,64,600,96,720,128C840,160,960,192,1080,213.3C1200,235,1320,245,1380,250.7L1440,256L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+        ></path>
+      </svg>
+      <div class="footerDetails">
+        <h2>Priyanka's Dreamy</h2>
+        <div class="socialMedia">
+          <a href="https://www.facebook.com/profile.php?id=100063927380051">  <ion-icon name="logo-facebook"></ion-icon></a>
+        
+          <a href="https://www.instagram.com/priyankasdreamy?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><ion-icon name="logo-instagram"></ion-icon></a>
+          
+        </div>
+        <a href="https://www.svgrepo.com/svg/527536/star-fall-minimalistic"
+          >IconAUTHOR: Solar Icons</a>
+          <div class="mylogo">
+           <a href="https://sauravsaha.com"><img src="img/logo/logo3.png"></a> 
+
+          </div>
+      </div>
+     
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="script.js" async defer></script>
+  </body>
+</html>
